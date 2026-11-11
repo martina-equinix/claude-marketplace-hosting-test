@@ -1,0 +1,12 @@
+{
+  "name": "hosting-test-hr",
+  "owner": { "name": "Martina Iglesias" },
+  "description": "Subfolder marketplace, registered with path. Source paths are relative to the repository root.",
+  "plugins": [
+    {
+      "name": "hr-helper",
+      "description": "Test plugin for the path-in-subfolder marketplace test.",
+      "source": "./marketplaces/hr/plugins/hr-helper"
+    }
+  ]
+}

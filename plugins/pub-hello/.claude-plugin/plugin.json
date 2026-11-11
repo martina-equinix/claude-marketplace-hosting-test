@@ -1,0 +1,5 @@
+{
+  "name": "pub-hello",
+  "description": "Test plugin that lives in the public test repo.",
+  "version": "0.1.0"
+}
