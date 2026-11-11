@@ -1,0 +1,16 @@
+{
+  "name": "eqx-test-hr",
+  "owner": { "name": "Martina Iglesias" },
+  "description": "Hosted HR test marketplace. Plugins use git-subdir into this repo.",
+  "plugins": [
+    {
+      "name": "hr-helper",
+      "description": "HR test plugin.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/martina-equinix/claude-marketplace-hosting-test.git",
+        "path": "marketplaces/hr/plugins/hr-helper"
+      }
+    }
+  ]
+}

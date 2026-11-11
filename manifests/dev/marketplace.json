@@ -1,0 +1,25 @@
+{
+  "name": "eqx-test-dev",
+  "owner": { "name": "Martina Iglesias" },
+  "description": "Hosted developer test marketplace. Plugins use git-subdir into the public and private test repos.",
+  "plugins": [
+    {
+      "name": "pub-hello",
+      "description": "Developer test plugin in the public repo.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/martina-equinix/claude-marketplace-hosting-test.git",
+        "path": "plugins/pub-hello"
+      }
+    },
+    {
+      "name": "priv-hello",
+      "description": "Developer test plugin in the private repo.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/martina-equinix/claude-marketplace-hosting-test-private.git",
+        "path": "plugins/priv-hello"
+      }
+    }
+  ]
+}
